@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moria Strachan-Powell | Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">MS-P</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <!-- AI-ASSISTED: This hero section was generated with AI assistance -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Turning Ideas Into <span class="highlight">Digital Reality</span></h1>
+                <p>Web developer specializing in modern, responsive websites and applications</p>
+                <button class="cta-button">Get Started</button>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/500x400" alt="Web Development Illustration">
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Moria Strachan-Powell, a passionate web developer with a focus on creating clean, user-friendly websites that drive business growth. With a background in both design and development, I bridge the gap between aesthetics and functionality.</p>
+                    <p>My approach combines cutting-edge technologies with time-tested design principles to create websites that not only look great but perform excellently across all devices.</p>
+                </div>
+                <div class="skills">
+                    <div class="skill-bar">
+                        <span>HTML/CSS</span>
+                        <div class="progress"><div class="progress-value" style="width: 95%"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <span>JavaScript</span>
+                        <div class="progress"><div class="progress-value" style="width: 85%"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <span>Responsive Design</span>
+                        <div class="progress"><div class="progress-value" style="width: 90%"></div></div>
+                    </div>
+                    <div class="skill-bar">
+                        <span>UI/UX Design</span>
+                        <div class="progress"><div class="progress-value" style="width: 80%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <!-- AI-ASSISTED: This services section structure was generated with AI assistance -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Services I Offer</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Custom websites built with clean code and modern frameworks to ensure performance and scalability.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Sites that look and work perfectly on all devices, from smartphones to desktop computers.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-search"></i>
+                    <h3>SEO Optimization</h3>
+                    <p>Improve your site's visibility in search engines to drive more organic traffic.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Intuitive and engaging user interfaces that enhance user experience and satisfaction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>moria@example.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>(555) 123-4567</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>San Francisco, CA</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>© 2025 Moria Strachan-Powell. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+            this.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
